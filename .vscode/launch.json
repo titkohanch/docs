@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
-  "configurations": [
+  ["configurations]": [ 
+  (ru)
     {
       "type": "node",
       "request": "attach",
@@ -8,6 +9,10 @@
       "processId": "${command:PickProcess}",
       "restart": true,
       "protocol": "inspector",
+      "configurations": [
+        {root}
+
+      ],
     },
   ]
 }
