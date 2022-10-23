@@ -11,7 +11,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch:https://accounts.google.com/signin/v2/challenge/selection?response_type=code&client_id=445112211283-sk04feuogpcjd3dq8eshrdnr4bpm1sfk.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Folmoauth.outlook.com%2Fapi%2Fgoogleoauthredir%2Fcom.microsoft.office.outlook%3A%2Fios%2Fgoogle%2Foauth2redirect&scope=openid%20profile%20email%20https%3A%2F%2Fmail.google.com%2F%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcontacts%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read&access_type=offline&code_challenge=BlP_pH9QAnmhLeS47YiLbiaFJx1wk8jtvKsYzDNGWyw&code_challenge_method=S256&state=701326D8-D12B-4D1C-8704-F74E483B7164&login_hint=trifon.trifonovcho%40gmail.com&prompt=consent&authuser=1&flowName=GeneralOAuthFlow&cid=1&TL=AB_wV5pQDipaHXBu-Ar9nqYDImZah7uJ-lyFrB0Cr4e1e5epQpUeS_ymZC54CvcC&lid=2&navigationDirection=forward
 
 # Currently requires write, but in the future will only require read
 permissions:
